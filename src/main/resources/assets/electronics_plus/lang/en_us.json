@@ -1,0 +1,13 @@
+{
+  "itemGroup.electronics_plus": "Example Mod Tab",
+  "block.electronics_plus.example_block": "Example Block",
+  "item.electronics_plus.example_item": "Example Item",
+
+  "electronics_plus.configuration.title": "Electronics+ Configs",
+  "electronics_plus.configuration.section.electronics_plus.common.toml": "Electronics+ Configs",
+  "electronics_plus.configuration.section.electronics_plus.common.toml.title": "Electronics+ Configs",
+  "electronics_plus.configuration.items": "Item List",
+  "electronics_plus.configuration.logDirtBlock": "Log Dirt Block",
+  "electronics_plus.configuration.magicNumberIntroduction": "Magic Number Text",
+  "electronics_plus.configuration.magicNumber": "Magic Number"
+}
