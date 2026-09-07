@@ -5,7 +5,6 @@ import net.neoforged.fml.common.Mod;
 
 @Mod(value = ElectronicsPlus.MODID, dist = Dist.CLIENT)
 public class ElectronicsPlusClient {
-
     public ElectronicsPlusClient() {
     }
 }
