@@ -46,7 +46,7 @@ authors="TheOR3O"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds electronical components to your world!
+Adding electronical components to your world!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

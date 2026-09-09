@@ -15,10 +15,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(ElectronicsPlus.MODID);
 
-    public static final DeferredBlock<Block> GREEN_LED = registerBlock("green_led",
+    public static final DeferredBlock<Block> LED = registerBlock("led",
             () -> new LEDBlock(BlockBehaviour.Properties.of()
                     .strength(0.3f)
-                    .noOcclusion()
                     .lightLevel(state -> state.getValue(LEDBlock.LIT) ? 15 : 0)
             ));
 
