@@ -1,10 +1,10 @@
 {
   "variants": {
     "lit=false": {
-      "model": "electronics_plus:block/led/green_led"
+      "model": "electronics_plus:block/led_off"
     },
     "lit=true": {
-      "model": "electronics_plus:block/led/green_led"
+      "model": "electronics_plus:block/led_on"
     }
   }
 }

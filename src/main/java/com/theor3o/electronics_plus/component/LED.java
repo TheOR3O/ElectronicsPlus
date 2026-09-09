@@ -7,7 +7,7 @@ public class LED extends ElectronicComponent {
 
     @Override
     public void update() {
-        powered = voltage == voltageRequired;
+        powered = voltageInput == voltageRequired;
     }
 
 }

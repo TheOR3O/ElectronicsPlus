@@ -1,7 +1,6 @@
 package com.theor3o.electronics_plus;
 
 import com.theor3o.electronics_plus.block.ModBlocks;
-import com.theor3o.electronics_plus.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,9 +17,9 @@ public class ModCreativeTabs {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ELECTRONICS_PLUS =
             CREATIVE_MODE_TABS.register("electronics_plus", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.electronics_plus"))
-                    .icon(() -> new ItemStack(ModBlocks.GREEN_LED.get()))
+                    .icon(() -> new ItemStack(ModBlocks.LED.get()))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.GREEN_LED.get());
+                        output.accept(ModBlocks.LED.get());
                     })
                     .build()
             );
